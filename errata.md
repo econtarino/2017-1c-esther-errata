@@ -8,4 +8,4 @@
 
 * El estado NEW ,en la planificacion del Kernel, tiene una cola, y no cuenta para el grado de multiprogramación.
 
-* La unica razon por la cual un proceso se puede bloquear en este TP es debido a los semaforos. Las syscalls sobre el FS como tambien los de la gestion del heap no bloquean el proceso ansisop
+* La unica razon por la cual un proceso se puede bloquear en este TP es debido a los semaforos. Las syscalls sobre el FS como tambien sobre la gestion del heap y variables globales no bloquean el proceso ansisop
