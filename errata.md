@@ -7,3 +7,5 @@
 * El enunciado dice que la Memoria no va a poder asignar paginas a un proceso en la cache cuando esta este llena, esto no es asi ya que la asignacion de paginas es global, por lo tanto, aunque la cache este llena siempre se le va a poder asignar una pagina a la misma siguiendo el algoritmo de remplazo de paginas.
 
 * El estado NEW ,en la planificacion del Kernel, tiene una cola, y no cuenta para el grado de multiprogramación.
+
+* La unica razon por la cual un proceso se puede bloquear en este TP es debido a los semaforos. Las syscalls sobre el FS como tambien los de la gestion del heap no bloquean el proceso ansisop
