@@ -9,3 +9,13 @@
 * El estado NEW, en la planificación del Kernel, tendrá su representación como una cola, manteniendo los procesos en ella hasta que el grado de multiprogramación permita su paso a READY. Ante una disminución del grado de multiprogramación, se debe dejar finalizar los procesos ANSISOP hasta obtener el nuevo grado.
 
 * La unica razon por la cual un proceso se puede bloquear en este TP es debido a los semaforos. Las syscalls sobre el FS como tambien sobre la gestion del heap y variables globales no bloquean el proceso ansisop
+
+* Según propuesto por el Enunciado, la interfaz de Memoria no puede liberar páginas de un proceso. 
+```
+Liberar Página de un Proceso
+  Parámetros: [Identificador del Programa] [Número de Página elegida]
+  Ante un pedido de liberación de página por parte del kernel, el proceso memoria deberá liberar
+  la página que corresponde con el número solicitado. En caso de que dicha página no exista
+  o no pueda ser liberada, se deberá informar de la imposibilidad de realizar dicha operación
+  como una excepcin de memoria.
+```
