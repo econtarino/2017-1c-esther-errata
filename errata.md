@@ -17,5 +17,5 @@ Liberar Página de un Proceso
   Ante un pedido de liberación de página por parte del kernel, el proceso memoria deberá liberar
   la página que corresponde con el número solicitado. En caso de que dicha página no exista
   o no pueda ser liberada, se deberá informar de la imposibilidad de realizar dicha operación
-  como una excepcin de memoria.
+  como una excepcion de memoria.
 ```
