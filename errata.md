@@ -19,3 +19,5 @@ Liberar Página de un Proceso
   o no pueda ser liberada, se deberá informar de la imposibilidad de realizar dicha operación
   como una excepcion de memoria.
 ```
+
+* Si bien el enunciado plantea, en la interfaz de la memoria, que la operación de `Solicitar bytes de una página` en el caso de los procesos CPUs, la operación no es exclusiva para dichos procesos, pudiendose presentarse casos en el que el proceso Kernel pueda realizarla.
