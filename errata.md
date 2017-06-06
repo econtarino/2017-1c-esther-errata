@@ -21,3 +21,5 @@ Liberar Página de un Proceso
 ```
 
 * Si bien el enunciado plantea, en la interfaz de la memoria, que la operación de `Solicitar bytes de una página` en el caso de los procesos CPUs, la operación no es exclusiva para dichos procesos, pudiendose presentarse casos en el que el proceso Kernel pueda realizarla.
+
+* El **5to checkpoint** no es el 10 de Junio, como dice el enunciado, si no **el sábado 24 de junio** (como estaba publicado en la [Planilla de Soporte](http://faq.utn.so/soporte)).
