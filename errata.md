@@ -25,3 +25,9 @@ Liberar Página de un Proceso
 * El **5to checkpoint** no es el 10 de Junio, como dice el enunciado, si no **el sábado 24 de junio** (como estaba publicado en la [Planilla de Soporte](http://faq.utn.so/soporte)).
 
 * En la consola del Kernel, sección "Obtener para un proceso dado", los items "b) La cantidad de operaciones privilegiadas que ejecutó" y "e) Cantidad de syscalls ejecutadas" están duplicados, es decir, piden lo mismo. La cantidad de operaciones privilegiadas ejecutadas es lo que mismo que la cantidad de syscalls ejecutadas.  
+
+
+**Aclaracion de memoria**
+* La **memoria LOGICA** se asigna de forma contigua. Esto significa que nunca vas a tener una página N+1 sin haber tenido la N.
+
+* La **memoria FISICA**, para los procesos, se asigna usando la función de hash. Esto puede o no darte frames contiguos. Ver página 24 del enunciado de TP.
