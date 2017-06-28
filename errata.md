@@ -26,6 +26,8 @@ Liberar Página de un Proceso
 
 * En la consola del Kernel, sección "Obtener para un proceso dado", los items "b) La cantidad de operaciones privilegiadas que ejecutó" y "e) Cantidad de syscalls ejecutadas" están duplicados, es decir, piden lo mismo. La cantidad de operaciones privilegiadas ejecutadas es lo que mismo que la cantidad de syscalls ejecutadas.  
 
+* En el enunciado se establece que para borrar un archivo se necesita que no tenga entradas en la tabla de archivos globales, sin embargo se contradice con la primitiva del parser para borrar archivos que requiere un fd. Para solucionar esta contradiccion. Si un programa ansisop requiere borrar un archivo, debe ser el único que lo tiene abierto; osea que el atributo de cantidad de open en la tabla de archivos va a estár en 1.
+
 
 **Aclaracion de memoria**
 * La **memoria LOGICA** se asigna de forma contigua. Esto significa que nunca vas a tener una página N+1 sin haber tenido la N.
